@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// 🎨 Variáveis de Tema
+$light-bg: #fefefe;
+$dark-bg: #2e2e2e;
+$text-light: #2e2e2e;
+$text-dark: #fefefe;
+$border-light: #ece7e7;
+$menu-bg: rgba(0, 0, 0, 0.9);
+
+// 📱 Mixins para Responsividade
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+// 🎯 Estilização do Header
+.Header {
+  background-color: $light-bg;
+  border-bottom: 0.1rem solid $border-light;
+
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  width: 100%;
+  height: 8rem;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    height: 8rem;
+
+    font-family: 'Poppins', sans-serif;
+  }
+
+  &__logo {
+    width: 7rem;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 4rem;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    a {
+      text-decoration: none;
+      color: $text-light;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: darken($text-light, 20%);
+      }
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+}
+
+// 📌 Estilização do Menu Mobile (Menu Burger)
+// Ícone do menu (burger e X)
+// 📌 Estilização do Menu Mobile (Menu Burger)
+.menu-icon {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  top: 2rem;
+  right: 2rem;
+  z-index: 15; // Garante que fique acima do menu
+
+  @include mobile {
+    display: block;
+  }
+
+  &.hide {
+    display: none; // Esconde o ícone quando o menu está aberto
+  }
+}
+
+// Menu lateral (Mobile/Tablet)
+.mobile-menu {
+  display: none;
+
+  @include mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: $menu-bg;
+    color: $text-dark;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    font-size: 1.5rem;
+    transition: transform 0.36s ease-in-out, opacity 0.3s ease-in-out;
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10; // Abaixo do botão
+
+    &.open {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-dark;
+      font-weight: bold;
+      font-size: 1.8rem;
+
+      &:hover {
+        color: lighten($text-dark, 20%);
+      }
+    }
+
+    // Botão de fechar dentro do menu
+    .close-menu {
+      position: absolute;
+      top: 2rem;
+      right: 3.2rem;
+
+      background: none;
+      border: none;
+
+      cursor: pointer;
+      color: $text-dark;
+      font-size: 2.5rem;
+      z-index: 20;
+    }
+  }
+}
+
+// 🎨 Modo Dark
+[data-theme='dark'] .Header {
+  background-color: $dark-bg;
+  border-bottom: 0.1rem solid darken($dark-bg, 10%);
+
+  .Header__nav a {
+    color: $text-dark;
+
+    &:hover {
+      color: lighten($text-dark, 20%);
+    }
+  }
+}

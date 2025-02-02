@@ -1,0 +1,12 @@
+.Home {
+  padding-top: 11rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    min-height: calc(100vh - 16.8rem);
+    position: relative;
+    z-index: 1;
+  }
+}
