@@ -4,6 +4,8 @@
   max-height: 510px;
   overflow: hidden; 
   position: relative;
+
+  margin-bottom: 4rem;
 }
 
 .ControlledCarousel img {
@@ -14,7 +16,7 @@
 }
 
 .carousel-caption {
-  // bottom: 50% !important;
+  bottom: 50% !important;
   font-size: 1.4rem !important;
   font-weight: 600;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
