@@ -2,11 +2,12 @@
 
 .Nav {
   &__list {
+    margin: 0;
     list-style: none;
 
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
   }
 
   &__list-item {
