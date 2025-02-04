@@ -9,8 +9,6 @@
     font-size: 1.5rem;
     margin: 3rem 0;
 
-    box-sizing: border-box;
-
     color: #2e2e2e;
     text-decoration: none;
 
@@ -25,6 +23,11 @@
     }
   }
 
+  &__infos-wrapper {
+    @include on-tablet {
+      width: 70%;
+    }
+  }
 
   &__infos-wrapper.Card__infos-wrapper--right {
     text-align: right;
@@ -43,7 +46,9 @@
   }
 
   &__image-box {
-
+    @include on-tablet {
+      width: 30%;
+    }
   }
 
   &__image {

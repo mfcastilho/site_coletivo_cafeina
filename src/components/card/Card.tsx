@@ -6,13 +6,14 @@ type Props = {
   description: string;
   photoSide?: 'LEFT' | 'RIGHT';
   cardImage: string;
+  linkUrl?: string;
 }
 
-export const Card: React.FC<Props> = ({ cardImage, description, photoSide, title }) => {
+export const Card: React.FC<Props> = ({ cardImage, description, photoSide, title, linkUrl }) => {
   return (
     <div className="Card">
       <a
-        href="https://www.youtube.com/watch?v=S2V36swLbnw"
+        href={linkUrl}
         target="_blank"
         className={`Card__content  Section__content ${photoSide === 'LEFT' ? 'Card__content--left' : ''}`}
       >

@@ -59,32 +59,27 @@ export const Home: React.FC<Props> = () => {
 
             <div className="Home__cards-wrapper">
               <Card
-                title="Documentário Hoje é Dia de Rock"
-                description="Documentário que conta a história do rock na cidade de Mendes e sobre a história do Festival Hoje é Dia de Rock, o maior festival de bandas autorais da região sul fluminense."
+                title="Hoje é Dia de Rock"
+                description={`"Hoje é Dia de Rock" é um documentário que retrata a relação de Mendes com o rock nacional, desde os anos 1960 até o surgimento do Festival Hoje é Dia de Rock, o maior evento de bandas autorais do Vale do Café fluminense.
+
+A cidade recebeu nomes como Bi Ribeiro (Paralamas), Jander Bilaphra (Plebe Rude) e Renato Rocha (Legião Urbana), que foram morar na cidade, ajudando a fortalecer a cena local e inspiraram o surgimento de bandas autorais, como a banda Atrito.
+
+O documentário também destaca o festival, que abriu espaço para bandas importantes da cena underground brasileira, como Menores Atos e Ventre (Lollapalooza) e Medulla e Rancore (MTV), consolidando Mendes como um polo do rock independente.`}
                 photoSide="LEFT"
                 cardImage="../../../public/img/nova-logo1-hoje-e-dia-de-rock.png"
+                linkUrl="https://www.youtube.com/watch?v=S2V36swLbnw"
               />
 
               <Card
-                title="Documentário Hoje é Dia de Rock"
-                description="Documentário que conta a história do rock na cidade de Mendes e sobre a história do Festival Hoje é Dia de Rock, o maior festival de bandas autorais da região sul fluminense."
+                title="A Caninha Verde de Vassouras"
+                description={`"A Caninha Verde de Vassouras" é um mini documentário produzido pelo Coletivo Cafeína, que resgata a história e tradição da caninha verde na cidade. Com depoimentos de moradores antigos, como Seu Manoel, o filme valoriza a cultura local e sua identidade.
+
+Realizado com recursos do Edital Paulo Gustavo, o documentário celebra a memória e o saber popular, mantendo viva essa tradição.`}
                 photoSide="RIGHT"
-                cardImage="../../../public/img/nova-logo1-hoje-e-dia-de-rock.png"
+                cardImage="../../../public/img/imagem-card-doc-caninha.png"
+                linkUrl="https://www.youtube.com/watch?v=1-PaTCTfoQE&t=77s"
               />
             </div>
-            {/* <div className="Card">
-              <div className="Section__content Card__content">
-                <div className="Section__card Card" style={{ padding: '.5rem' }}>
-                  <h3 className="Card__title" style={{ textAlign: 'center' }}>Docucmentário Hoje é Dia de Rock</h3>
-                  <p className="Card__description" style={{ textAlign: 'center' }}>
-                    Documentário que conta a história do rock na cidade de Mendes e sobre a história do Festival Hoje é Dia de Rock, o maior festival de bandas autorais da região sul fluminense.
-                  </p>
-                  <div className="Card__content" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <iframe style={{ width: '90%', height: '200px', borderRadius: '.5rem' }} className="Card__video" src="https://www.youtube.com/embed/S2V36swLbnw?si=l2h2zeshtiDZUElR" title="Docucmentário Hoje é Dia de Rock" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
