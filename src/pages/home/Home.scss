@@ -9,4 +9,10 @@
     position: relative;
     z-index: 1;
   }
+
+  &__cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+  }
 }
