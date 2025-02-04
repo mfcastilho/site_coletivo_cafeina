@@ -1,29 +1,40 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.scss";
 import { useTheme } from "../../hooks/useTheme";
 import { NavBar } from "../nav/NavBar";
 import { FiMenu, FiX } from "react-icons/fi";
 
-import logoLight from "../../assets/logo-light.png";
-import logoDark from "../../assets/logo-dark.png";
+import logoLight from "../../../public/img/logo-light.png";
+import logoDark from "../../../public/img/logo-dark.png";
 
-interface Props {}
+interface Props { }
 
 export const Header: React.FC<Props> = () => {
   const { theme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 0);
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <header
-      className="Header"
+      className={`Header ${scrolled ? 'scrolled' : ''}`}
       style={{
         background: theme === "light" ? "#fefefe" : "#2e2e2e",
       }}
     >
       <div className="app-container">
-        <div className="Header__content">
+        <div className={`Header__content ${scrolled ? 'scrolled' : ''}`}>
           <img
-            className="Header__logo"
+            className={`Header__logo ${scrolled ? 'scrolled' : ''}`}
             src={theme === "light" ? logoLight : logoDark}
             alt="Coletivo Cafeína Logo"
           />
@@ -43,10 +54,12 @@ export const Header: React.FC<Props> = () => {
               <FiX size={35} />
             </button>
 
-            <a href="#quem-somos" onClick={() => setMenuOpen(false)}>Quem Somos</a>
-            <a href="#o-que-fazemos" onClick={() => setMenuOpen(false)}>O Que Fazemos</a>
-            <a href="#projetos" onClick={() => setMenuOpen(false)}>Projetos</a>
-            <a href="#contato" onClick={() => setMenuOpen(false)}>Contato</a>
+            <a href="#about-us" onClick={() => setMenuOpen(false)}>Quem Somos</a>
+            <a href="#our-history" onClick={() => setMenuOpen(false)}>Nossa História</a>
+            <a href="#our-mission" onClick={() => setMenuOpen(false)}>Nossa Missão</a>
+            <a href="#projects" onClick={() => setMenuOpen(false)}>Projetos</a>
+            <a href="#gallery" onClick={() => setMenuOpen(false)}>Galeria</a>
+            {/* <a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a> */}
           </nav>
 
           {/* Menu Desktop */}
