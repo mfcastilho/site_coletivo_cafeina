@@ -2,9 +2,7 @@ import React from "react";
 import './Footer.scss';
 import { useTheme } from "../../hooks/useTheme";
 
-interface Props {
-
-}
+interface Props {}
 
 export const Footer: React.FC<Props> = () => {
   const { theme } = useTheme();
@@ -18,9 +16,16 @@ export const Footer: React.FC<Props> = () => {
     >
       <div className="app-container">
         <div className="Footer__content">
-        <img className="Header__logo Footer__Logo" src="src\assets\Coletivo Cafeína.png" alt="coletivo cafeina logo" />
+          <img
+            className="Footer__logo"
+            src="../../../public/img/coletivo-cafeina.png"
+            alt="coletivo cafeina logo"
+          />
+          <p className="Footer__copyrigth">
+            &copy; 2025 Coletivo Cafeína. Todos os direitos reservados.
+          </p>
         </div>
       </div>
     </div>
   );
-}
+};
