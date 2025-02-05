@@ -4,8 +4,8 @@ import { useTheme } from "../../hooks/useTheme";
 import { NavBar } from "../nav/NavBar";
 import { FiMenu, FiX } from "react-icons/fi";
 
-import logoLight from "../../../public/img/logo-light.png";
-import logoDark from "../../../public/img/logo-dark.png";
+const logoLight = "https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/logo-light.png";
+const logoDark = "https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/logo-dark.png";
 
 interface Props { }
 
@@ -60,7 +60,7 @@ export const Header: React.FC<Props> = () => {
             <a href="#our-history" onClick={() => setMenuOpen(false)}>Nossa História</a>
             <a href="#our-mission" onClick={() => setMenuOpen(false)}>Nossa Missão</a>
             <a href="#projects" onClick={() => setMenuOpen(false)}>Projetos</a>
-            <a href="#gallery" onClick={() => setMenuOpen(false)}>Galeria</a>
+            {/* <a href="#gallery" onClick={() => setMenuOpen(false)}>Galeria</a> */}
             {/* <a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a> */}
           </nav>
 

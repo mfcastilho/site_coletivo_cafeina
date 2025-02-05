@@ -19,7 +19,7 @@ export const NavBar: React.FC<Props> = () => {
         <li className="Nav__list-item list-item"><a href="#our-history" className="Nav__link">Nossa História</a></li>
         <li className="Nav__list-item list-item"><a href="#our-mission" className="Nav__link">Nossa Missão</a></li>
         <li className="Nav__list-item list-item"><a href="#projects" className="Nav__link">Projetos</a></li>
-        <li className="Nav__list-item list-item"><a href="#gallery" className="Nav__link">Galeria</a></li>
+        {/* <li className="Nav__list-item list-item"><a href="#gallery" className="Nav__link">Galeria</a></li> */}
         {/* <li className="Nav__list-item list-item"><a href="#contact" className="Nav__link">Contato</a></li> */}
       </ul>
       {/* <ThemeToggler /> */}

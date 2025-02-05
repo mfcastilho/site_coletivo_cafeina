@@ -18,7 +18,7 @@ export const Footer: React.FC<Props> = () => {
         <div className="Footer__content">
           <img
             className="Footer__logo"
-            src="../../../public/img/coletivo-cafeina.png"
+            src="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/coletivo-cafeina.png"
             alt="coletivo cafeina logo"
           />
           <p className="Footer__copyrigth">

@@ -7,7 +7,7 @@ const bannerImages = [
     id: 1,
     title: 'Coletivo Cafeína',
     description: '',
-    url: '/img/banner-1-site-coletivo.png',
+    url: 'https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/banner-1-site-coletivo.png',
     alt_description: 'First slide image',
   },
   {
