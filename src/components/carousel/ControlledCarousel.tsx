@@ -8,21 +8,21 @@ const bannerImages = [
     title: 'Coletivo Cafeína',
     description: '',
     url: 'https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/banner-1-site-coletivo.png',
-    alt_description: 'First slide image',
+    alt_description: 'Membros do Coletivo Cafeína cantando juntos',
   },
   {
     id: 2,
     title: 'Documentários',
     description: '',
-    url: '/img/doc-caninha-verde.png',
-    alt_description: 'Second slide image',
+    url: 'https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/doc-caninha-verde.png',
+    alt_description: 'Seu Manoel sendo entrevistado',
   },
   {
     id: 3,
     title: 'Cultura',
     description: '',
     url: 'https://coletivocultural.redelivre.org.br/files/2019/02/41693997834_4affab3184_k.jpg',
-    alt_description: 'Third slide image',
+    alt_description: 'Roda de cultura',
   },
 ];
 
