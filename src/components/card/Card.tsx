@@ -32,7 +32,6 @@ export const Card: React.FC<Props> = ({ cardImage, description, photoSide, title
               <h3 className="Card__title">{title}</h3>
               <p className="Card__description">{description}</p>
             </div>
-
           </>
         ) : (
           <>

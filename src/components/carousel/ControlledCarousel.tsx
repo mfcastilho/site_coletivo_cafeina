@@ -7,14 +7,14 @@ const bannerImages = [
     id: 1,
     title: 'Coletivo Cafeína',
     description: '',
-    url: '../../../public/img/banner-1-site-coletivo.png',
+    url: '/img/banner-1-site-coletivo.png',
     alt_description: 'First slide image',
   },
   {
     id: 2,
     title: 'Documentários',
     description: '',
-    url: '../../../public/img/doc-caninha-verde.png',
+    url: '/img/doc-caninha-verde.png',
     alt_description: 'Second slide image',
   },
   {

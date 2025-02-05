@@ -33,11 +33,13 @@ export const Header: React.FC<Props> = () => {
     >
       <div className="app-container">
         <div className={`Header__content ${scrolled ? 'scrolled' : ''}`}>
-          <img
-            className={`Header__logo ${scrolled ? 'scrolled' : ''}`}
-            src={theme === "light" ? logoLight : logoDark}
-            alt="Coletivo Cafeína Logo"
-          />
+          <a href="#" className="Header__logo--link">
+            <img
+              className={`Header__logo ${scrolled ? 'scrolled' : ''}`}
+              src={theme === "light" ? logoLight : logoDark}
+              alt="Coletivo Cafeína Logo"
+            />
+          </a>
 
           {/* Ícone do menu burger (Mobile/Tablet) */}
           <button
