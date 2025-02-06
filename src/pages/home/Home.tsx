@@ -32,7 +32,7 @@ export const Home: React.FC<Props> = () => {
                 title="Quem Somos"
                 text="O Coletivo Cafeína é uma organização sem fins lucrativos dedicada a promover a transformação social por meio da arte, cultura e ação social. Nosso trabalho se baseia na valorização da diversidade cultural, na criação de espaços de empoderamento e formação, e em ações que envolvem as áreas cultural, educacional, socioambiental e técnico-científica. Acreditamos no poder da arte como motor de mudanças e buscamos ser uma força transformadora, expandindo nossa atuação e incentivando projetos que promovam a justiça social, a educação e a proteção ambiental, com o objetivo de construir uma sociedade mais justa, integrada e que celebre a pluralidade cultural."
                 side="LEFT"
-                imageUrl="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/hoje-e-dia-de-rock-5.2.jpg"
+                imageUrl="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/hoje-e-dia-de-rock-5.2.jpg"
               />
             </div>
           </div>
@@ -43,7 +43,7 @@ export const Home: React.FC<Props> = () => {
                 title="Nossa História"
                 text="Fundado em 2014, o Coletivo Cafeína tem sido um pilar da cena cultural na região sul fluminense, com destaque para a produção do Festival Hoje é Dia de Rock, que se tornou um dos maiores e mais inclusivos eventos da área, reunindo grandes nomes do rock nacional como Medulla, El Efecto e Teco Martins (Rancore), além de realizar ações solidárias. O Coletivo também é responsável por projetos como o documentário 'Hoje é Dia de Rock', o 'Caninha Verde' em Vassouras, e a Cafeína Live Session, uma série de gravações de shows ao vivo. Além disso, desenvolve o projeto TurisMendes, em parceria com a Secretaria de Turismo de Mendes, promovendo a cidade como um ponto turístico cultural."
                 side="RIGHT"
-                imageUrl="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/hoje-e-dia-de-rock-3-cartaz-no-palco.png"
+                imageUrl="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/hoje-e-dia-de-rock-3-cartaz-no-palco.png"
               />
             </div>
           </div>
@@ -54,7 +54,7 @@ export const Home: React.FC<Props> = () => {
                 title="Nossa Missão"
                 text="A missão do Coletivo Cafeína é promover a cultura como força motriz de desenvolvimento e transformação social. Buscamos criar espaços de manifestação artística, fortalecer a memória e identidade da região, gerar oportunidades para artistas e agentes culturais e impulsionar a economia criativa. Através da arte, do conhecimento e da colaboração, queremos ampliar o acesso à cultura, conectar pessoas e consolidar o Vale do Café como um polo cultural vivo e inovador."
                 side="LEFT"
-                imageUrl="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/hoje-e-dia-de-rock-3.1.png"
+                imageUrl="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/hoje-e-dia-de-rock-3.1.png"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ O projeto inclui uma plataforma online interativa, placas turísticas com QR Cod
 
 Mais que uma iniciativa pontual, o TurisMendes nasce para deixar um legado duradouro, fortalecendo o turismo e a cultura regional e consolidando Mendes como um destino vibrante. O lançamento está previsto para maio de 2025`}
                   photoSide="LEFT"
-                  cardImage="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/turismendes-logo-ideia4.png"
+                  cardImage="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/turismendes-logo-ideia4.png"
                   linkUrl="#"
                 />
 
@@ -82,7 +82,7 @@ Mais que uma iniciativa pontual, o TurisMendes nasce para deixar um legado durad
 
 Realizado com recursos do Edital Paulo Gustavo, o documentário celebra a memória e o saber popular, mantendo viva essa tradição.`}
                   photoSide="RIGHT"
-                  cardImage="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/imagem-card-doc-caninha.png"
+                  cardImage="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/imagem-card-doc-caninha.png"
                   linkUrl="https://www.youtube.com/watch?v=1-PaTCTfoQE&t=78s"
                 />
 
@@ -94,7 +94,7 @@ A cidade recebeu nomes como Bi Ribeiro (Paralamas), Jander Bilaphra (Plebe Rude)
 
 O documentário também destaca o festival, que abriu espaço para bandas importantes da cena underground brasileira, como Menores Atos e Ventre (Lollapalooza) e Medulla e Teco Martins (Rancore), consolidando Mendes como um polo do rock independente.`}
                   photoSide="LEFT"
-                  cardImage="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/nova-logo1-hoje-e-dia-de-rock.png"
+                  cardImage="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/nova-logo1-hoje-e-dia-de-rock.png"
                   linkUrl="https://www.youtube.com/watch?v=S2V36swLbnw"
                 />
 
@@ -104,7 +104,7 @@ O documentário também destaca o festival, que abriu espaço para bandas import
 
 O projeto busca dar visibilidade aos artistas da região, fortalecer a cena musical local e criar um acervo que valorize a diversidade artística. `}
                   photoSide="RIGHT"
-                  cardImage="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/cafeina-live-session-card1.png"
+                  cardImage="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/cafeina-live-session-card1.png"
                   linkUrl="https://www.youtube.com/watch?v=mwrE8qzwfdQ&t=1s"
                 />
 
@@ -116,7 +116,7 @@ Além da música, o festival sempre integrou arte em diversas formas, com exposi
 
 Agora, o Hoje é Dia de Rock se prepara para mais uma edição em maio de 2025, reafirmando seu papel como um espaço essencial para a cena independente.`}
                   photoSide="LEFT"
-                  cardImage="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/festival-card-1.png"
+                  cardImage="https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/festival-card-1.png"
                   linkUrl="https://hojeediaderock.netlify.app/"
                 />
               </div>

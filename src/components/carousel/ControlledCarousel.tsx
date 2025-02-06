@@ -7,14 +7,14 @@ const bannerImages = [
     id: 1,
     title: 'Coletivo Cafeína',
     description: '',
-    url: 'https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/banner-1-site-coletivo.png',
+    url: 'https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/banner-1-site-coletivo.png',
     alt_description: 'Membros do Coletivo Cafeína cantando juntos',
   },
   {
     id: 2,
     title: 'Documentários',
     description: '',
-    url: 'https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/doc-caninha-verde.png',
+    url: 'https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/doc-caninha-verde.png',
     alt_description: 'Seu Manoel sendo entrevistado',
   },
   {

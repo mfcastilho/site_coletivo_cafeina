@@ -4,8 +4,8 @@ import { useTheme } from "../../hooks/useTheme";
 import { NavBar } from "../nav/NavBar";
 import { FiMenu, FiX } from "react-icons/fi";
 
-const logoLight = "https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/logo-light.png";
-const logoDark = "https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/logo-dark.png";
+const logoLight = "https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/logo-light.png";
+const logoDark = "https://storage.googleapis.com/api-flamengo/coletivo-cafeina/imagens-coletivo/logo-dark.png";
 
 interface Props { }
 
