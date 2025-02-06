@@ -92,7 +92,7 @@ Realizado com recursos do Edital Paulo Gustavo, o documentário celebra a memór
 
 A cidade recebeu nomes como Bi Ribeiro (Paralamas), Jander Bilaphra (Plebe Rude) e Renato Rocha (Legião Urbana), que foram morar na cidade, ajudando a fortalecer a cena local e inspiraram o surgimento de bandas autorais, como a banda Atrito.
 
-O documentário também destaca o festival, que abriu espaço para bandas importantes da cena underground brasileira, como Menores Atos e Ventre (Lollapalooza) e Medulla e Rancore (MTV), consolidando Mendes como um polo do rock independente.`}
+O documentário também destaca o festival, que abriu espaço para bandas importantes da cena underground brasileira, como Menores Atos e Ventre (Lollapalooza) e Medulla e Teco Martins (Rancore), consolidando Mendes como um polo do rock independente.`}
                   photoSide="LEFT"
                   cardImage="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/nova-logo1-hoje-e-dia-de-rock.png"
                   linkUrl="https://www.youtube.com/watch?v=S2V36swLbnw"
