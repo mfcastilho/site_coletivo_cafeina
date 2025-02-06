@@ -65,7 +65,7 @@ export const Home: React.FC<Props> = () => {
 
               <div className="Home__cards-wrapper">
                 <Card
-                  title="TurisMendes: A mapa da cultura mendense"
+                  title="TurisMendes: O mapa da cultura mendense"
                   description={`O TurisMendes é um projeto que conectará Mendes-RJ ao seu patrimônio cultural, histórico, artístico e educacional. Desenvolvido para a Secretaria de Turismo, é viabilizado pela parceria entre o Coletivo Cafeína e a SomosDev Tech.
 
 O projeto inclui uma plataforma online interativa, placas turísticas com QR Codes – que permitirão acesso a fotos em 360º, mapas interativos e informações sobre pontos culturais da cidade – e uma plataforma de gerenciamento, onde os administradores poderão registrar, editar e excluir dados do sistema.
