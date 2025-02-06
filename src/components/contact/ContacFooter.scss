@@ -87,27 +87,27 @@ $menu-bg: rgba(0, 0, 0, 0.9);
     transition: background 0.4s ease-in-out;
   
     &.instagram {
-      background-image: url('../../../public/img/instagram-icon.png');
+      background-image: url('../../../public/icons/instagram-icon.png');
     }
   
     &.instagram:hover {
-      background-image: url('../../../public/img/instagram-icon-hover.png');
+      background-image: url('../../../public/icons/instagram-icon-hover.png');
     }
   
     &.facebook {
-      background-image: url('../../../public/img/face-icon.png');
+      background-image: url('../../../public/icons/face-icon.png');
     }
   
     &.facebook:hover {
-      background-image: url('../../../public/img/face-icon-hover.png');
+      background-image: url('../../../public/icons/face-icon-hover.png');
     }
   
     &.whatsapp {
-      background-image: url('../../../public/img/whatsapp-icon.png');
+      background-image: url('../../../public/icons/whatsapp-icon.png');
     }
   
     &.whatsapp:hover {
-      background-image: url('../../../public/img/whatsapp-icon-hover.png');
+      background-image: url('../../../public/icons/whatsapp-icon-hover.png');
     }
   }
   
