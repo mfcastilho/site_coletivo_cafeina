@@ -13,13 +13,17 @@ body {
 
 .App {
   font-family: 'Poppins', sans-serif;
+
+  &__section--wrapper {
+    padding-top: 3.6rem;
+  }
 }
 
 .app-container {
   width: 100%;
   min-width: 32rem;
   margin: 0 auto;
-  padding-inline: 6rem;
+  padding-inline: 4rem;
 
   @include on-tablet {
     padding-inline: 8rem;

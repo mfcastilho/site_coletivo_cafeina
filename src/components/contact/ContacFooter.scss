@@ -1,0 +1,127 @@
+@import '../../assets/scss/variables.scss';
+
+/*
+$light-bg: #fefefe;
+$dark-bg: #2e2e2e;
+$text-light: #2e2e2e;
+$text-dark: #fefefe;
+$border-light: #ece7e7;
+$menu-bg: rgba(0, 0, 0, 0.9);
+*/
+
+.ContactFooter {
+  background-color: $light-bg;
+  border-top: 1px solid $border-light;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+    height: 38rem;
+
+    @include on-tablet {
+      height: 24rem;
+    }
+  }
+
+  &__infos--wrapper {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include on-tablet {
+      flex-direction: row;
+    }
+  }
+
+  &__title {
+    font-size: 3.6rem;
+    font-weight: 600;
+
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  &__contact-us--wrapper {
+    margin: 1rem 0 0 0;
+  }
+
+  &__follow-us {
+    margin-top: 3rem;
+
+    @include on-tablet {
+      margin-top: 0;
+    }
+  }
+
+  &__contact-us {
+    margin-top: 1rem;
+
+    @include on-tablet {
+      margin: 0;
+    }
+  }
+
+  &__sub-title {
+    margin: 1rem 0 1rem 0;
+
+    font-weight: 600;
+    font-size: 1.8rem;
+
+  }
+
+  &__social-medias--wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__social-media {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    transition: background 0.4s ease-in-out;
+  
+    &.instagram {
+      background-image: url('../../../public/img/instagram-icon.png');
+    }
+  
+    &.instagram:hover {
+      background-image: url('../../../public/img/instagram-icon-hover.png');
+    }
+  
+    &.facebook {
+      background-image: url('../../../public/img/face-icon.png');
+    }
+  
+    &.facebook:hover {
+      background-image: url('../../../public/img/face-icon-hover.png');
+    }
+  
+    &.whatsapp {
+      background-image: url('../../../public/img/whatsapp-icon.png');
+    }
+  
+    &.whatsapp:hover {
+      background-image: url('../../../public/img/whatsapp-icon-hover.png');
+    }
+  }
+  
+}
+
+.contact-us__info {
+  display: block;
+  font-size: 1.4rem;
+  color: $dark-bg;
+  text-decoration: none;
+}
+
+.contact-us__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+

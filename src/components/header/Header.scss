@@ -1,12 +1,7 @@
+@import '../../assets/scss/variables.scss';
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-// 🎨 Variáveis de Tema
-$light-bg: #fefefe;
-$dark-bg: #2e2e2e;
-$text-light: #2e2e2e;
-$text-dark: #fefefe;
-$border-light: #ece7e7;
-$menu-bg: rgba(0, 0, 0, 0.9);
 
 // 📱 Mixins para Responsividade
 @mixin mobile {

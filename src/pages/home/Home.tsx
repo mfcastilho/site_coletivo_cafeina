@@ -83,6 +83,7 @@ Mais que uma iniciativa pontual, o TurisMendes nasce para deixar um legado durad
 Realizado com recursos do Edital Paulo Gustavo, o documentário celebra a memória e o saber popular, mantendo viva essa tradição.`}
                   photoSide="RIGHT"
                   cardImage="https://f005.backblazeb2.com/file/site-coletivo-cafeina-bucket/imagem-card-doc-caninha.png"
+                  linkUrl="https://www.youtube.com/watch?v=1-PaTCTfoQE&t=78s"
                 />
 
                 <Card

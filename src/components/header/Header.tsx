@@ -60,6 +60,7 @@ export const Header: React.FC<Props> = () => {
             <a href="#our-history" onClick={() => setMenuOpen(false)}>Nossa História</a>
             <a href="#our-mission" onClick={() => setMenuOpen(false)}>Nossa Missão</a>
             <a href="#projects" onClick={() => setMenuOpen(false)}>Projetos</a>
+            <a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a>
             {/* <a href="#gallery" onClick={() => setMenuOpen(false)}>Galeria</a> */}
             {/* <a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a> */}
           </nav>

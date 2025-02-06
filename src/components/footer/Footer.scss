@@ -1,31 +1,32 @@
+@import '../../assets/scss/variables.scss';
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-// .Footer {
-//   background-color: #2e2e2e
-// }
-
-.Footer__content {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  gap: 1rem;
-
-  height: 8.3rem;
-  font-family: "Poppins", serif;
+.Footer {
+  &__content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+  
+    height: 8.3rem;
+    font-family: "Poppins", serif;
+  }
+  
+  &__logo {
+    width: 4rem;
+  }
+  
+  &__nav {
+    color: white;
+    display: flex;
+    gap: 2rem;  
+  }
+  
+  &__copyrigth {
+    color: #fefefe;
+  }
 }
 
-.Footer__logo {
-  width: 4rem;
-}
-
-.Footer__nav {
-  color: white;
-  display: flex;
-  gap: 2rem;  
-}
-
-.Footer__copyrigth {
-  color: #fefefe;
-}
