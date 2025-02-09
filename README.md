@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+# Coletivo Cafeína - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte da landing page do Coletivo Cafeína, um coletivo cultural dedicado à arte, cultura e transformação social.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+- React
+- TypeScript
+- Sass
+- Bootstrap (react-bootstrap para o carrossel de banners)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o Projeto
+Este projeto é uma landing page estática desenvolvida para apresentar o Coletivo Cafeína e seus projetos. A primeira versão inclui informações principais e um carrossel de banners. Na segunda etapa, será adicionada uma seção de galeria para exibição de fotos.
 
-## Expanding the ESLint configuration
+O desenvolvimento seguiu a metodologia **BEM** para organização do CSS, utilizando **mixins** para facilitar a responsividade. O design foi construído com a abordagem **mobile first**, garantindo uma experiência fluida em todos os dispositivos.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Desenvolvedor
+**Mario Frederico de Castilho**
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Acesse o Site
+[Coletivo Cafeína](https://coletivocafeina.netlify.app/)
