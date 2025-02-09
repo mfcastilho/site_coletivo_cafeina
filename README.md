@@ -9,7 +9,7 @@ Este repositório contém o código-fonte da landing page do Coletivo Cafeína, 
 - Bootstrap (react-bootstrap para o carrossel de banners)
 
 ## Sobre o Projeto
-Este projeto é uma landing page estática desenvolvida para apresentar o Coletivo Cafeína e seus projetos. A primeira versão inclui informações principais e um carrossel de banners. Na segunda etapa, será adicionada uma seção de galeria para exibição de fotos.
+Este projeto é uma landing page estática desenvolvida para apresentar o Coletivo Cafeína e seus projetos. A primeira versão inclui informações principais organizada em seções e um carrossel de banners. Na segunda etapa, será adicionada uma seção de galeria para exibição de fotos.
 
 O desenvolvimento seguiu a metodologia **BEM** para organização do CSS, utilizando **mixins** para facilitar a responsividade. O design foi construído com a abordagem **mobile first**, garantindo uma experiência fluida em todos os dispositivos.
 
