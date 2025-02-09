@@ -14,7 +14,8 @@ Este projeto é uma landing page estática desenvolvida para apresentar o Coleti
 O desenvolvimento seguiu a metodologia **BEM** para organização do CSS, utilizando **mixins** para facilitar a responsividade. O design foi construído com a abordagem **mobile first**, garantindo uma experiência fluida em todos os dispositivos.
 
 ## Desenvolvedor
-**Mario Frederico de Castilho**
+[Mario Frederico de Castilho](https://github.com/mfcastilho/)
+
 
 ## Acesse o Site
 [Coletivo Cafeína](https://coletivocafeina.netlify.app/)
