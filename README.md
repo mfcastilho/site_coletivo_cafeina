@@ -18,4 +18,4 @@ O desenvolvimento seguiu a metodologia **BEM** para organização do CSS, utiliz
 
 
 ## Acesse o Site
-[Coletivo Cafeína](https://coletivocafeina.netlify.app/)
+[Coletivo Cafeína](https://coletivocafeina.com.br/)
